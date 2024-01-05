@@ -40,7 +40,7 @@ main() {
   print(telefone.keys); // pegando as Chaves do map
   print(telefone.entries); // pegando as chaves e os valores correspondentes
 
-// Set f
+// Set 
   var times = {'Vasco', 'Flamengo', 'Fortaleza', 'São Paulo'};
   print(times is Set); // verificando se é um set
   print(times.length); // Verificando o tamanho do set
