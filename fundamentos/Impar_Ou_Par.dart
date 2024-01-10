@@ -1,4 +1,4 @@
-// pede para o usuario inserir um numero e mostre o numero é par ou não.
+// pede para o usuario inserir um numero e mostre se o numero é par ou não.
 import 'dart:io';
 
 main() {
