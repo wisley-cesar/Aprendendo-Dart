@@ -11,6 +11,7 @@ main() {
   imprimirData(21, 01);
   imprimirData(21);
   imprimirData();
+  
 }
 
 int numeroAleatorio([int maximo = 11]) {
@@ -21,4 +22,7 @@ int numeroAleatorio([int maximo = 11]) {
 imprimirData([int dia = 01, int mes = 01, int ano = 1970]) {
   print('$dia/$mes/$ano');
 }
-// nesse caso da data se o usuario não preencher corretamente a função já vai mostra o resultado gerenico. 
+// nesse caso da data se o usuario não preencher corretamente a função já vai mostra o resultado gerenico.
+
+
+
