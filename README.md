@@ -1,10 +1,10 @@
 # Aprendendo Dart
 
-Bem-vindo ao meu repositório de aprendizado Dart! Aqui eu estou registrando meu progresso e compartilhando o que estou aprendendo ao explorar a linguagem de programação Dart.
+Bem-vindo ao meu repositório de aprendizado Dart! Aqui estou documentando meu progresso e compartilhando o que estou aprendendo ao explorar a linguagem de programação Dart.
 
 ## Sobre o Projeto
 
-Este projeto é uma coleção de exemplos, exercícios e pequenos projetos que estou desenvolvendo enquanto aprendo Dart. O objetivo é fornecer um recurso útil para quem também está começando a aprender Dart.
+Este repositório é uma coleção de exemplos, exercícios e pequenos projetos que estou desenvolvendo enquanto aprendo Dart. O objetivo é fornecer um recurso útil para quem também está começando a aprender Dart.
 
 ## Conteúdo
 
@@ -16,7 +16,7 @@ Este projeto é uma coleção de exemplos, exercícios e pequenos projetos que e
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/Aprendendo-Dart.git
+    git clone https://github.com/wisley-cesar/Aprendendo-Dart.git
     ```
 
 2. Navegue até o diretório do projeto:
