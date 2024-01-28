@@ -24,4 +24,5 @@ double somar(double valorAcumulado, double elemento) {
 String juntarNomes(String valoAcumulado, String elemento) {
   print('$valoAcumulado, => $elemento');
   return '$valoAcumulado, $elemento';
+  
 }
