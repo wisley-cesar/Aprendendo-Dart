@@ -15,5 +15,4 @@ main() {
   var total = notasFinais.reduce((total, elemento) => total + elemento);
 
   print('O valor da média é: ${total / notasFinais.length}');
-  
 }
