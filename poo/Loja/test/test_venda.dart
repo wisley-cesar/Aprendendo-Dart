@@ -9,12 +9,15 @@ void main() {
       cliente: Cliente(nome: 'Wisley César', cpf: '123.123.123-12'),
       itens: <VendaItem>[
         VendaItem(
+            quantidade: 10,
             produto:
                 Produto(codigo: 12, nome: 'bola', preco: 100, desconto: 0.5)),
         VendaItem(
+            quantidade: 2,
             produto:
                 Produto(codigo: 1, nome: 'Bonê', preco: 50, desconto: 0.5)),
         VendaItem(
+            quantidade: 3,
             produto:
                 Produto(codigo: 23, nome: 'blusa', preco: 10, desconto: 0.5)),
       ]);

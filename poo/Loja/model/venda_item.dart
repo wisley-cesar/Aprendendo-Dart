@@ -2,10 +2,10 @@ import './produto.dart';
 
 class VendaItem {
   Produto produto;
-  int quantidede;
+  int quantidade;
   double _preco;
 
-  VendaItem({required this.produto, this.quantidede = 1}) : _preco = 0.0;
+  VendaItem({required this.produto, this.quantidade = 1}) : _preco = 0.0;
 
   double get preco {
     if (produto != null && _preco == null) {

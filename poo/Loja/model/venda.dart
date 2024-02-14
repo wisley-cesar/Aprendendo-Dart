@@ -9,8 +9,8 @@ class Venda {
 
   double get valorTotal {
     return itens
-        .map((item) => item.preco * item.quantidede)
+        .map((item) => item.preco * item.quantidade)
         .reduce((t, a) => t + a);
   }
-  
+
 }
