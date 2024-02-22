@@ -13,17 +13,17 @@ String calcularDistancia(List valorP1, List valorP2) {
   var y1Double = double.parse(valorDeY1);
 
   var valorDeX2 = valorP2[0];
-  var valorDeX2Doblue = double.parse(valorDeX2);
+  var x2Double = double.parse(valorDeX2);
   var valorDeY2 = valorP2[1];
-  var valorDeY2Doblue = double.parse(valorDeY2);
+  var y2Double = double.parse(valorDeY2);
 
-  var valorDoP1 = (x1Double - y1Double);
-  var valorDoP2 = (valorDeX2Doblue - valorDeY2Doblue);
+  var valorDoP1 = (x2Double - x1Double);
+  var valorDoP2 = (y2Double - y1Double);
 
   var valorDoP1Elevado = pow(valorDoP1, 2);
   var valorDoP2Elevado = pow(valorDoP2, 2);
 
-  double resultado = sqrt((valorDoP1Elevado - valorDoP2Elevado));
+  double resultado = sqrt((valorDoP1Elevado + valorDoP2Elevado));
   var resultadoFormatado = resultado.toStringAsFixed(4);
   return resultadoFormatado;
 }
