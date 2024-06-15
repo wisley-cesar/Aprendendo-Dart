@@ -4,4 +4,5 @@ abstract class Observer {
    void notify(String message){
     
    }
+   
 }

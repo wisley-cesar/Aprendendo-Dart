@@ -31,3 +31,4 @@ class CompanySystem extends Subject {
     notifyObsever('is ready');
   }
 }
+

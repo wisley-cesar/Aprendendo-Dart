@@ -1,6 +1,5 @@
 import 'company_sistem.dart';
 import 'observers.dart';
-
 main() {
   final user01 = User1();
   final user02 = User2();

@@ -11,5 +11,6 @@ abstract class Subject {
   }
 
   void notifyObsever(String status){
+    
   }
 }

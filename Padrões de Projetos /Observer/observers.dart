@@ -1,5 +1,4 @@
 import 'observer.dart';
-
 class User1 extends Observer {
   @override
   String nome = 'User 01';
